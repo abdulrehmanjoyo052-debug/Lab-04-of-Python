@@ -1,0 +1,14 @@
+Question:
+Create an empty list:
+shopping = []
+Ask the user to enter 5 shopping items.
+Then display the complete shopping list.
+
+
+
+Code:
+shopping = []
+for i in range(5):
+    item = input("Enter shopping item: ")
+    shopping.append(item)
+print("Shopping List:", shopping)
